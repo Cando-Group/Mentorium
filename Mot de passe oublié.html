@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de passe oublié</title>
+    <link href="Mot de passe oublié.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="image/logo v2.jpg" alt="Logo" class="logo">
+            <img src="image/logo v1.jpg" alt="logo2" class="logo2">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <div class="menu" id="menu">
+                <a href="incription.html" class="b1">Inscription</a>
+                <a href="connexion.html" class="b2">Connexion</a>
+            </div>
+        </div>
+        <div class="verif">
+        <div class="body">
+            <img src="image/w2.jpg" alt="Illustration" class="im1">
+        </div>
+        <form>
+            <div class="mail">
+                <p><strong>Mot de passe</strong></p>
+                <input type="password" class="case" placeholder="Entrez un nouveau mot de passe" >
+                <p><strong>Confirmez le Mot de passe</strong></p>
+                <input type="password" class="case" placeholder="Confirmez le mot de passe"  >
+            </div>
+            <button type="submit" class="conf"><a href="vérification du code.html">Recevoir le code</a></button>
+        </form>
+        </div>
+    </div>
+
+    <footer class="bot">
+        <div>
+            <img src="image/bot.jpeg" alt="chatbot">
+        </div>
+    </footer>
+
+    <script>
+        const menuicon = document.getElementById('menu-icon');
+        const menu = document.getElementById('menu');
+
+        menuicon.addEventListener('click' , () =>{
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

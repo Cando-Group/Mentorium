@@ -1,0 +1,231 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+.container{
+    box-sizing: border-box;
+    margin-left: -10%;
+    margin-top: -50px;
+}
+.logo {
+    height: 240px;
+    margin-left: 10%;
+}
+
+.menu{
+    max-width: 700px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.b1 {
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgb(246, 244, 244);
+    width: 50%;
+    padding: 6px 16px;
+    color: palevioletred;
+    border-color: palevioletred;
+    background-color: white;
+    text-decoration: none;
+}
+.b2 {
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 16px;
+    border: 1px solid;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    color: palevioletred;
+    border-color: palevioletred;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+
+.body {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo2{
+    display: none;
+}
+
+.im1 {
+    height: 400px;
+    margin-top: -90px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.form {
+    margin-top: 10px;
+}
+
+.mail {
+   margin-left: 40%;
+}
+
+.mail p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.case {
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: rgb(211, 209, 209);
+}
+
+.conf {
+    background-color: #6e9f6e;
+    color:white ;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 41%;
+}
+
+.conf:hover {
+    background-color: #6e9f6e;
+}
+form  button a{
+    text-decoration: none;
+    color: white;
+}
+footer img{
+    width: 80px;
+    bottom: 20px;
+    margin-left: 1200px;
+}
+
+@media (max-width:768px) {
+    .head{
+        display: flex;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo2{
+        display: flex;
+        height: 80px;
+        margin-top: 15%;
+        padding: 5px;
+        padding-left: 7%;
+    }
+    .b1{
+        width: 100%;
+    }
+
+    .b2{
+        width: 100%;
+    }
+
+    .verif{
+        padding: 10px;
+    }
+    
+    .conf{
+        width: 60%;
+        margin-left: 80px;
+        border-radius: 60px;
+    }
+
+    .menu {
+      display: none;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      backdrop-filter: blur(8px);
+      position: absolute;
+      top: 15%;
+      right: 0;
+      left: 0;
+      padding: 10px;
+      width: 50%;
+      box-shadow: 0px 4px 6px rgba(248, 240, 240, 0.1);
+      margin-top: 5%;
+      border-top: 1px solid #f6eeee;
+      margin-left: 30%;
+    }
+
+    .menu.active{
+        display: flex;
+    }
+
+    .menu-icon{
+        display: block;
+        margin-left: 40%;
+        font-size: 35px;
+        cursor: pointer;
+        border: 2px solid black;
+        height: 40px;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 10%;
+    }
+
+    .body img{
+        padding-top: 30%;
+    }
+    footer img{
+        width: 60px;
+        bottom: 40px;
+        margin-left: 70%;
+    }
+
+    .case{
+        border-radius: 25px;
+        width: 135%;
+        margin-left: -35%;
+    }
+
+    strong{
+        margin-left: -35%;
+    }
+
+    .im1{
+        height: 200px; ;
+    }
+  form{
+    margin-left: -10%;
+  }
+
+}

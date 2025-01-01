@@ -1,0 +1,401 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+header{
+	background-color: #ffffff;
+	padding: 10px 0;
+	height: 0px;
+}
+
+.container0 {
+    width: 105%;
+    margin-top: -15px;
+    display: flex;
+    position: fixed;
+    background-color: #ffffff;
+    height: 130px;
+    margin-left: -20px;
+}
+.case span{
+    background-color: rgb(26, 196, 145);
+    border-radius: 30px;
+    width: 170px;
+    height: 40px;
+}
+.case span h4{
+    text-align: center;
+    color: #f1eded;
+    margin-top: 10px;
+    z-index: 1;
+}
+.caseimg{
+    position: absolute;
+    right: -38px;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 32%;
+}
+.caseimg img {
+    border-radius: 50%;
+    margin-right: 2px;
+    margin-top: -20px;
+}
+
+.case{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 10px;
+    position: relative;
+
+}
+.logo{
+	width: 200px;
+	margin-top:-5px;
+    height: 21vh;
+    margin-left: 90px;
+
+}
+
+.menu{
+    font-size: 20px;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+.menu-icon{
+    display: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+select{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border: none;
+}
+
+.contact-header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+.contact-header .cont{
+    color: #fff;
+}
+
+.contact-header a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.info-block {
+    width: 45%;
+}
+
+.info-block h2 {
+    color: #FF0000;
+    font-size: 40px;
+}
+
+.info-block .ouais {
+    text-decoration: none;
+    color: black;
+    margin-left: 45px;
+    font-size: 15px;
+}
+
+.info-block p {
+    margin: 10px 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-block i {
+    font-size: 30px;
+    color: #FF0000;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons i {
+    color: teal;
+}
+
+.contact-form {
+    width: 45%;
+}
+
+.contact-form h4 {
+    color: #333;
+    margin-top: 50px;
+}
+
+.description {
+    margin: 15px 0;
+    color: teal;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-form form input {
+    width: 91%;
+    padding: 15px;
+    padding-bottom: 30px;
+    margin: 10px 10px;
+    color: black;
+    border: 1px solid teal;
+    background-color: rgba(192, 187, 187, 0.952);
+}
+
+.contact-form .zone {
+    width: 91%;
+    padding: 15px;
+    padding-bottom: 100px;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    border: 1px solid teal;
+    background-color: rgba(192, 187, 187, 0.952);
+}
+
+
+.contact-form a {
+    background: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.contact-form i {
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.frame {
+    text-align: center;
+    align-items: center;
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+}
+
+.frame p {
+    padding-top: 170px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+
+footer {
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-icons i{
+    margin-right: 8px;
+    font-size: 35px;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    flex: 1;
+    margin: 10px;
+}
+
+.colored{
+    color: #49b6ad;
+}
+
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+}
+
+.footer-section p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-footer{
+    width: 200px;
+    height: 100px;
+    background-color: #1b1919;
+}
+
+.separator-red{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 1px;
+    width: 80%;
+    background-color: #FF3600;
+}
+
+.footer-bottom{
+    justify-items: center;
+}
+
+.footer-bottom span{
+    color: #49b6ad;
+}
+
+
+/* Styles pour les écrans mobiles */
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    header,footer {
+    flex-direction: column;
+    align-items: center;
+    }
+    .container0 {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -3%;
+    }
+    .logo{
+        width: 100%;
+        margin-left: -50%;
+    }
+    .case{
+      display: none;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: relative;
+        top: 100%;
+        right: 0;
+        left: 2%;
+        padding: 20px;
+        width: 100%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: -45%;
+        border-top: 1px solid black;
+      }
+  
+      .menu.active{
+        display: flex;
+      }
+      .menu-icon{
+        display: block;
+        margin-left: 80%;
+        margin-top: -28%;
+        font-size: 35px;
+        cursor: pointer;
+        border: 2px solid black;
+        height: 50px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .info-block, .contact-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        margin-left: -10px;
+        width: 89%;
+    }
+    .r input{
+        width: 20%;
+        margin-right: 50px;
+    }
+
+    .social-icons i {
+        font-size: 40px;
+        margin-left: 5px;
+    }
+
+    .contact-form h4{
+        font-size: 26px;
+    }
+
+    .user-profile {
+        align-self: center;
+    }
+    .frame {
+        text-align: center;
+        align-items: center;
+        background-color: grey;
+        width: 95%;
+        height: 350px;
+        margin-left: 2%;
+    }
+    
+    .frame p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    footer{
+        text-align: left;
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack footer sections vertically */
+        align-items: flex-start; /* Center align items */
+    }
+    .footer-bottom{
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+}

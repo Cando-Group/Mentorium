@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification du code</title>
+    <link href="vérification du code.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="image/logo o2.jpg" alt="Logo" class="logo">
+            <img src="image/logo o1.jpg" alt="logo2" class="logo2">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <div class="menu" id="menu">
+                <a href="incription.html" class="b1">Inscription</a>
+                <a href="connexion.html" class="b2">Connexion</a>
+            </div>   
+        </div>
+    <section class="verif">
+        <div class="body">
+            <img src="image/w1.jpg" alt="Illustration" class="im1">
+            <h1 >Vérification du code</h1>
+            <p >Un code vous a été envoyé par email, veuillez le saisir ici.</p>
+        </div>
+        <form>
+            <div class="code">
+                <input type="text" maxlength="1" class="case" >
+                <input type="text" maxlength="1" class="case">
+                <input type="text" maxlength="1" class="case">
+                <input type="text" maxlength="1" class="case">
+            </div>
+            <button type="submit" class="conf">Confirmer le code</button>
+        </form>
+    </section>
+    </div>
+    <footer class="bot">
+        <div>
+            <img src="image/bot.jpeg" alt="chatbot">
+        </div>
+    </footer>
+
+    <script>
+        const menuicon = document.getElementById('menu-icon');
+        const menu = document.getElementById('menu');
+
+        menuicon.addEventListener('click' , () =>{
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
